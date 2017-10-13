@@ -1,3 +1,16 @@
+# Our Work
+#### Creating a Threading Library
+New requires & ensures about memory access
+
+#### Path Compression (Simple Substitutions)
+Based on requires, ensures, stability, side-effects
+Finds matches, makes substitutions
+
+<br>
+<br>
+
+# "Vanilla" Dafny & Other Details
+
 ![Dafny](dafny-banner.png)
 
 Dafny is a programming language with a program verifier. As you type in your program, the verifier constantly looks over your shoulders and flags any errors. Dafny is currently spread across 3 sites:
@@ -6,16 +19,16 @@ Dafny is a programming language with a program verifier. As you type in your pro
 * This site, which includes sources, [binary downloads](https://github.com/Microsoft/dafny/releases) for Windows, Mac, GNU/Linux, and FreeBSD, sources, and the issue tracker (old issues are on [codeplex](https://dafny.codeplex.com/workitem/list/basic)).
 * The [Rise4fun site](http://rise4fun.com/dafny), where you can verify Dafny programs in your web browser.
 
-# Try Dafny
+## Try Dafny
 
 The easiest way to get started with Dafny is to use [rise4fun](http://rise4fun.com/dafny), where you can write and verify Dafny programs without having install anything. On rise4fun, you will also find the online Dafny tutorial.
 
-# Setup
+## Setup
 
 See [installation instructions](https://github.com/Microsoft/dafny/wiki/INSTALL) on the wiki
 and instructions for installing the [Dafny mode for Emacs](https://github.com/boogie-org/boogie-friends).
 
-# Read more
+## Read more
 
 Here are some ways to get started with Dafny:
 
@@ -37,16 +50,16 @@ The language itself draws pieces of influence from:
 * ML (like the module system, and its functions and inductive datatypes), and
 * Coq and VeriFast (like the ability to include co-inductive datatypes and being able to write inductive and co-inductive proofs).
 
-# External contributions
+## External contributions
 
 * [Haskell-to-Dafny translator](http://www.doc.ic.ac.uk/~dcw/h2d.cgi), by Duncan White
 * [Vim-loves-Dafny mode](https://github.com/mlr-msft/vim-loves-dafny) for vim, by Michael Lowell Roberts
 * [Boogie-Friends Emacs mode](https://github.com/boogie-org/boogie-friends)
 
-# Code of Conduct
+## Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# License
+## License
 
 Dafny itself is licensed under the MIT license. (See LICENSE.txt in the root directory for details.) The subdirectory third_party contains third party material; see NOTICES.txt for more details.
