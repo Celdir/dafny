@@ -1,6 +1,8 @@
 # Our Work
 #### Creating a Threading Library
 New requires & ensures about memory access
+Functions to create and destroy threads (likely based on pid)
+Mutex locks if we have time
 
 #### Path Compression (Simple Substitutions)
 Based on requires, ensures, stability, side-effects
@@ -9,7 +11,7 @@ Finds matches, makes substitutions
 <br>
 <br>
 
-# "Vanilla" Dafny & Other Details
+# Dafny
 
 ![Dafny](dafny-banner.png)
 
