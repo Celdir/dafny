@@ -2,7 +2,11 @@
 #### Creating a Threading Library
 New requires & ensures about memory access
 Functions to create and destroy threads (likely based on pid)
-Mutex locks if we have time
+Concept of simultaneous code
+Mutex lock library providing guarantees about its funtionality (specifically in terms of simultaneous code)
+Shared variables with requirements about simultaneous access
+Message/pipe library
+Synchronization keyword (makes guarantees about simultaneous access)
 
 #### Path Compression (Simple Substitutions)
 Based on requires, ensures, stability, side-effects
