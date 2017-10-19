@@ -1,16 +1,15 @@
 # Our Work
 #### Creating a Threading Library
-New requires & ensures about memory access
-Functions to create and destroy threads (likely based on pid)
-Concept of simultaneous code
-Mutex lock library providing guarantees about its funtionality (specifically in terms of simultaneous code)
-Shared variables with requirements about simultaneous access
-Message/pipe library
-Synchronization keyword (makes guarantees about simultaneous access)
+We will extend the Dafny programming language by adding multithreading support with the following features/functionality:
+* Creating new threads and accessing handles to those threads
+* Sending messages to other threads by their handles
+* Concept of simultaneous code in proof engine
+* Language support for synchronized functionality that ensures appropriate facts about simultaneous access
+* Shared variables with requirements about simultaneous access
+* Mutex lock library with appropriate simultaneous-code-related propositions required and ensured
 
 #### Path Compression (Simple Substitutions)
-Based on requires, ensures, stability, side-effects
-Finds matches, makes substitutions
+Using Dafny's sophisticated proof construction, a significant amount of metadata relating to nontrivial facts about the functionality of compiled Dafny code is available. Using this data, optimizations can be made to the code that would have otherwise been unavailable to the compiler. One such example is simple path compression: By analyzing the inputs, outputs, requirements, ensures and side-effects of different subroutines, some routines can be found to have more efficient versions with the same effect.
 
 <br>
 <br>
